@@ -57,6 +57,8 @@ Keep ngrok running.
 
 Register the **Webhook endpoint** with the ```Plugin Registration tool```: **http://\<random name>.ngrok.io/api/ContactChange**
 
+>Note: You can start the ```Plugin Registration tool``` with the command line: **pac tool prt**.
+
 Update a contact in your Model Driver App to trigger the webhook in the locally running Azure function.
 
 Verify that a breakpoint can be hit.
